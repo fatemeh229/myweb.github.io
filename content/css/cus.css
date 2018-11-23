@@ -171,6 +171,9 @@ position: absolute;
     font-size: x-small;
     color: #808080;
 }
+#tutorial{
+    background-color: #f5f5f5;
+}
 .service .card{
     border: none;
 }
@@ -180,7 +183,7 @@ position: absolute;
     border-top-right-radius: calc(.25rem - 1px);
     height: 180px;
 }
-.service .card .btn{
+.my-btn{
     width: 100%;
     color: #fff;
     background-color: #00aeef;
@@ -194,9 +197,9 @@ position: absolute;
 .service .card p{
     font-size: 13px;
 }
-.service .card .btn:hover{
+.my-btn:hover{
     color: #00aeef;
-    background-color: #fff;
+    background-color: transparent
 }
 .no-js .owl-carousel, .owl-carousel.owl-loaded {
     direction: ltr
@@ -258,6 +261,15 @@ padding-bottom: 10px;
     width: 100%;
     text-align: center;
 	
+}
+#subscribe{
+    background-color: #959595;
+    background-image: url(../image/bg.png);
+}
+
+#subscribe .btn{
+    width: 200px;
+    margin-top: 10px;
 }
 
 /* ////////// */
