@@ -153,8 +153,40 @@ position: absolute;
     padding-top: 20px;
     color:#fff;
     width: 100%;
-    text-align: center;
+    text-align: right;
+
 }
+.footer h5{
+    margin-right: 20px;
+    font-size: 18px;
+border-bottom: solid 1px #4a4f51;
+padding-bottom: 10px; 
+
+}
+.footer h5:after {
+    content: " ";
+        background-color: #6c2e9e;
+        display: inline-block;
+        height: 3px;
+        width: 28px;
+    position: absolute;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        left: 88%;
+        top: 30px;
+    }
+.footer li{
+    text-align: right;
+    list-style: none;
+}
+.footer li::before {
+    content: "\2020"; 
+    color:  #6c2e9e; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-right: -1em; 
+  }
 .s-footer{
     border-top-width: 1px;
     border-top-style: solid;
