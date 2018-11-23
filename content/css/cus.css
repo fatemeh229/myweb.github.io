@@ -106,6 +106,8 @@
     padding-top:20px;
     padding-bottom: 20px;
     text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .lev-item{
     padding-top: 20px;
@@ -154,6 +156,24 @@ position: absolute;
     font-size: x-small;
     color: #808080;
 }
+.card .btn{
+    width: 100%;
+    color: #fff;
+    background-color: #ac57db;
+    border:solid 2px #9140be;
+    font-size: 13px;
+    border-radius: 0px;
+}
+.card h2{
+    font-size: 16px;
+}
+.card p{
+    font-size: 13px;
+}
+.card .btn:hover{
+    color: #ac57db;
+    background-color: #fff;
+}
 .no-js .owl-carousel, .owl-carousel.owl-loaded {
     direction: ltr
 }
@@ -190,7 +210,7 @@ padding-bottom: 10px;
 }
 .footer li::before {
     content: "\2020"; 
-    color:  #6c2e9e; 
+    color:  #c35df7db; 
     font-weight: bold; 
     display: inline-block; 
     width: 1em; 
