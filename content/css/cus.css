@@ -183,8 +183,8 @@ position: absolute;
 .service .card .btn{
     width: 100%;
     color: #fff;
-    background-color: #ac57db;
-    border:solid 2px #9140be;
+    background-color: #00aeef;
+    border:solid 2px #077fac;
     font-size: 13px;
     border-radius: 0px;
 }
@@ -195,7 +195,7 @@ position: absolute;
     font-size: 13px;
 }
 .service .card .btn:hover{
-    color: #ac57db;
+    color: #00aeef;
     background-color: #fff;
 }
 .no-js .owl-carousel, .owl-carousel.owl-loaded {
@@ -218,7 +218,7 @@ padding-bottom: 10px;
 }
 .footer h5:after {
     content: " ";
-        background-color: #6c2e9e;
+        background-color: #00aeef;
         display: inline-block;
         height: 3px;
         width: 28px;
@@ -233,8 +233,8 @@ padding-bottom: 10px;
     list-style: none;
 }
 .footer li::before {
-    content: "\2020"; 
-    color:  #c35df7db; 
+    content: "\2021"; 
+    color:  #00aeef; 
     font-weight: bold; 
     display: inline-block; 
     width: 1em; 
