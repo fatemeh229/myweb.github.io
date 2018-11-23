@@ -12,7 +12,6 @@
     padding: 0px;
 }
 .top-menu{
-    float:right;
     width: 100%;
     border-bottom: #f1f1f1 solid 1px;
 	 border-top: #d7d4d4 solid 1px;
@@ -33,6 +32,12 @@
 }
 .slider{
     background-color: black;
+}
+.carousel {
+    position: relative;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    direction: initial;
 }
 .service{
     margin-top:20px;
@@ -109,6 +114,28 @@
 .service header{
     width: 100%;
     padding-bottom: 20px;
+}
+.title-box{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 300px;
+    border-bottom: solid 1px#eeeeee;
+}
+
+.title{
+    font-size: 20px;
+}
+.title-box:after {
+content: " ";
+    background-color: #00aeef;
+    display: inline-block;
+    height: 3px;
+    width: 28px;
+position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
 }
 .level h3{
     font-size: x-small;
