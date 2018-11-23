@@ -125,7 +125,22 @@
     /* vertical-align: middle; */
     border-radius: 15px;
     font-size: x-small;
+    border-radius: 0;
 }
+ .g{
+
+    border: solid 2px #188d33;
+}
+.b{
+
+    border: solid 2px #0d5f6c;
+}
+.r{
+
+    border: solid 2px #951a26;
+
+}
+
 .service header{
     width: 100%;
     padding-bottom: 20px;
@@ -158,6 +173,12 @@ position: absolute;
 }
 .service .card{
     border: none;
+}
+.service .card .card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 180px;
 }
 .service .card .btn{
     width: 100%;
