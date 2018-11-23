@@ -31,7 +31,7 @@
 
 }
 .slider{
-    background-color: black;
+    background-color: #0d0221;
 }
 .carousel {
     position: relative;
@@ -43,7 +43,8 @@
     margin-top:20px;
     width:100%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   
 }
 .service h3{
@@ -57,6 +58,14 @@
        background: rgb(255, 255, 255);
     padding: 1rem;
     border-radius: 5px;
+}
+.item img{
+    height: auto;
+    width: 117px;
+    border-style: outset;
+    border-radius: 10px;
+    margin: 0 auto;
+
 }
 .item h5{
     padding-top: 10px;
