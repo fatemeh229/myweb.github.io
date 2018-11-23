@@ -194,7 +194,10 @@ padding-bottom: 10px;
     padding-bottom: 20px;
     text-align: center;
 }
-
+.slide{
+    visibility: visible;
+    animation: slide 1s;
+}
 .copy-right{
 	background-color: #22282a;
     padding-top: 20px;
