@@ -1,0 +1,12 @@
+.logo, .years, #header-info i, #header-info .support:before, #header-info .user:before, .nav-main .navbar-toggle:before, nav ul .menu-item-has-children:after, nav ul .menu-item-has-children:hover:after, .services-1:before, .services-2:before, .services-3:before, .services-4:before, .services-5:before, .level-arrow, .levels-1, .levels-2, .levels-3, .last-blog ul li a:before, .logo-1, .logo-2, .logo-3, .logo-4, .wp-box-icon-1 i, .center-icons .cenetr-1, .center-icons .cenetr-2, .center-icons .cenetr-3, .facebook, .twitter, .google-plus, .instagram, .rss, .breadcrumb-icon, .shortener-url:before, .page-tags:before, .iphorm-input-wrap-select:before, .wp-box-icon-2 i, .wp-box-icon-3 i, .wp-box-icon-4 i, .wp-box-icon-5 i, .post-cat i, .post-date i, .wp-pagenavi:before, .screen, .panel-title:before, .search-top::before{background-image:url(content/image/sprites.png);}
+.levels-1{height:69px;width:83px;margin-top:7px;display:inline-block;background-position:left -61px;}
+.levels-2{height:81px;width:100px;background-position:-83px -61px;}
+.levels-3{height:87px;width:82px;background-position:-183px -61px;}
+.level-arrow {
+    height: 44px;
+    width: 23px;
+    position: absolute;
+    left: 0px;
+    top: 10%;
+    background-position: -273px -19px;
+}
