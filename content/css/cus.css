@@ -325,7 +325,9 @@ padding-bottom: 10px;
     background-color: #959595;
     background-image: url(../image/bg.png);
 }
-
+#subscribe h4{
+color: white;
+}
 #subscribe .btn{
     width: 200px;
     margin-top: 10px;
@@ -338,6 +340,7 @@ padding-bottom: 10px;
 #PAY h4{
     text-align: right;
     font-size: 23px;
+
  }
  #PAY p{
     text-align: right;
