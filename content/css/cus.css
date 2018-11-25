@@ -87,6 +87,10 @@
 }
 .slider{
     background-color: #0d0221;
+    height: 100%;
+}
+.slider img{
+    height: 100%;
 }
 .carousel {
     position: relative;
