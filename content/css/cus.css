@@ -11,14 +11,45 @@
     text-align: right;
     padding: 20px;
 }
+@media only screen and (max-width: 450px){
+.logo{
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 0px;
+}
+}
+.logo img{
+    width: 189px;
+}
+@media only screen and (max-width: 450px){
+    .logo img{
+    width:120px;
+    }
+    }
 .call{
     padding-top: 20px;
 }
+@media only screen and (max-width: 450px){
+    .call{
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding-top: 0px;
+    }
+    }
 .call img{
     width: 76px;
 }
+@media only screen and (max-width: 450px){
+    .call img{
+    width:50px;
+    }
+    }
 .call span{
-    font-family:'IRANSans';
+    font-family:fantasy;
 }
 .call .btn{
     font-size: xx-small;
