@@ -87,7 +87,8 @@
 }
 .slider{
     background-color: #0d0221;
-    height: 70%;
+    height: 65%;
+    /* width: 100%; */
 }
 .slider img{
     height: 100%;
@@ -233,6 +234,7 @@ position: absolute;
 
 .service .card{
     border: none;
+    margin-bottom: 15px;
 }
 .service .card .card-img-top {
     width: 100%;
