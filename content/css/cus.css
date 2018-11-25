@@ -87,6 +87,8 @@
 }
 .slider{
     background-color: #0d0221;
+    background-image: url(../image/bg-slide.jpg) ;
+    background-size: cover;
     height: 65%;
     /* width: 100%; */
 }
