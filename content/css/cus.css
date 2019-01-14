@@ -1,4 +1,19 @@
+#navbar {
 
+    background-color: #333;
+    z-index: 99;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
 .head{
     background-color: #fafafa;
     height: 150px;
@@ -237,6 +252,31 @@ position: absolute;
 .service .card{
     margin-bottom: 15px;
 }
+
+/* Flashing */
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 .service .card .card-img-top {
     width: 100%;
     border-top-left-radius: calc(.25rem - 1px);
